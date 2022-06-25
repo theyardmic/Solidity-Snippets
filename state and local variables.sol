@@ -7,7 +7,7 @@ uint new_StateVariable = 3; //declaring state variable
 function getResult public view returns(int memory){
 uint a = 3; //declaring local variables
 uint b = 4;
-uint result= a+b;
+uint result= a+b; //accessing local variable
 return result;
 return new_StateVariable; //accessing state variable internally from derivation
 }
