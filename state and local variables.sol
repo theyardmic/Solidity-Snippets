@@ -9,5 +9,6 @@ uint a = 3; //declaring local variables
 uint b = 4;
 uint result= a+b;
 return result;
+return new_StateVariable; //accessing state variable internally from derivation
 }
 }
