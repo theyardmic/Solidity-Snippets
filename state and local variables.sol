@@ -5,7 +5,7 @@ uint new_StateVariable = 3; //declaring state variable
                     }
 
 function getResult public view returns(int memory){
-uint a = 3;
+uint a = 3; //declaring local variables
 uint b = 4;
 uint result= a+b;
 return result;
