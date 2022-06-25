@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 contract A {
 constructor() public {
-uint new_StateVariable = 3;
+uint new_StateVariable = 3; //declaring state variable
                     }
 
 function getResult public view returns(int memory){
