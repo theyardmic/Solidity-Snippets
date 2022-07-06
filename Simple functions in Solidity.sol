@@ -12,6 +12,12 @@ return x-y;
 function div(uint x, uint y) external pure returns (uint){
     return x/y;
 }
+function globVAr() external pure returns (uint) {
+    uint  y = 4;
+    uint  x = 3;
+    uint  z = x+y;
+    return z;
+}
 
 
 }
