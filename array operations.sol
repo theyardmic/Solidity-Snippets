@@ -19,17 +19,14 @@ function display() external view returns(uint){
 function pop() external  {
 x.pop();    
 } 
-function displaynewlength() external view returns(uint){
- uint l = x.length;
- return l;
-}
+
 function push() external  {
 x.push(5);    
 } 
 function displaynewlength() external view returns(uint){
- uint l = x.length;
- return l;
+ uint t = x.length;
+ return t;
 }
 }
 
-}
+
