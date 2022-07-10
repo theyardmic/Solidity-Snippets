@@ -23,5 +23,13 @@ function displaynewlength() external view returns(uint){
  uint l = x.length;
  return l;
 }
+function push() external  {
+x.push(5);    
+} 
+function displaynewlength() external view returns(uint){
+ uint l = x.length;
+ return l;
+}
+}
 
 }
