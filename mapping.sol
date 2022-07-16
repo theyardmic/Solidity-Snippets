@@ -14,7 +14,7 @@ contract ZombieFactory {
 
     Zombie[] public zombies;
 
-    mapping (uint => address) public zombieToOwner;
+    mapping (uint => address) public zombieToOwner; //declare mapping with the "uint" as the key being mapped to the "address" value
     mapping (address => uint) ownerZombieCount;
 
     function _createZombie(string memory _name, uint _dna) private {
