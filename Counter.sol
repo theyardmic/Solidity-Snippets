@@ -19,4 +19,11 @@ contract Counter {
          //This function will fail if count = 0
         count -= 1;
     }
+     function mult() public {
+        count *= 2;
+    }
+
+    function div() public{
+        count /= 2;
+    }
 }
