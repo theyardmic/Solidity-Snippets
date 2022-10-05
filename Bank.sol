@@ -44,9 +44,11 @@ contract BankTransaction{
         ); 
     }
 //Create hash from ID
-    /* function createHash(address client, address receiver,uint amount, uint time) public pure returns (bytes memory){
+
+     function createHash(address client, address receiver,uint amount, uint time) public pure returns (bytes memory){
         return keccak256(abi.encodePacked(string.concat(string(bytes(client)),string(receiver),string(amount),string(time))));
-    } */
+    } 
+    
 //Generate transaction ID from hash
     /* function generateID(bytes memory hashed) public pure returns (string memory){
         return string(hashed[2:10]);
