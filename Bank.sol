@@ -5,8 +5,8 @@ pragma solidity ^0.8.7;
 contract BankTransaction{
     struct Transaction{
         string ID; //payment identifier
-        address client;
-        address payable recipient;
+        address client; //client identifier
+        address payable recipient;  //recipient identifier
         uint amount;
         uint timestamp;
         string note;
@@ -43,6 +43,7 @@ contract BankTransaction{
             }
         ); 
     }
+    
 //Create hash from ID
 
      function createHash(address client, address receiver,uint amount, uint time) public pure returns (bytes memory){
