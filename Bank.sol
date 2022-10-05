@@ -50,9 +50,9 @@ contract BankTransaction{
     } 
     
 //Generate transaction ID from hash
-    /* function generateID(bytes memory hashed) public pure returns (string memory){
+     function generateID(bytes memory hashed) public pure returns (string memory){
         return string(hashed[2:10]);
-    } */
+    } 
 
 //Getting information about the payment by it's identifier
     function getTransaction(string memory id) public view returns(Transaction memory){
