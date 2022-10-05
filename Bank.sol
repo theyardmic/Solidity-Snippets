@@ -30,7 +30,8 @@ contract BankTransaction{
                 hashed: ""
             })
         );
-        /* txs[generateID(_hash)] = Transaction(
+        
+         txs[generateID(_hash)] = Transaction(
             {
                 ID: generateID(_hash),
                 client: msg.sender,
@@ -40,7 +41,7 @@ contract BankTransaction{
                 note: note,
                 hashed: _hash
             }
-        ); */
+        ); 
     }
 //Create hash from ID
     /* function createHash(address client, address receiver,uint amount, uint time) public pure returns (bytes memory){
