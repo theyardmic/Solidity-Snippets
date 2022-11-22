@@ -3,7 +3,7 @@
 pragma solidity ^0.6.6;
 
 // Creating a Contract
-contract GFGToken
+contract strucker_Token
 {
 
 // Table to map addresses
