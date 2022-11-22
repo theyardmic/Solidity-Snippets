@@ -1,5 +1,5 @@
-// Compatible with version
-// of compiler upto 0.6.6
+//SPDX-License-Identifier: MIT
+
 pragma solidity ^0.6.6;
 
 // Creating a Contract
